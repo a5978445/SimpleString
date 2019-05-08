@@ -1,15 +1,15 @@
 //
-//  SimpleStringTests.swift
-//  SimpleStringTests
+//  SimpleStringDemoTests.swift
+//  SimpleStringDemoTests
 //
 //  Created by 李腾芳 on 2019/5/8.
 //  Copyright © 2019 HSBC Holdings plc. All rights reserved.
 //
 
 import XCTest
-@testable import SimpleString
+@testable import SimpleStringDemo
 
-class SimpleStringTests: XCTestCase {
+class SimpleStringDemoTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -22,9 +22,6 @@ class SimpleStringTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        SayHello.boy()
-        
-        print("xxx")
     }
 
     func testPerformanceExample() {
